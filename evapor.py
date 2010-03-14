@@ -7,6 +7,7 @@ from numpy import array
 from numpy import zeros
 from scipy.integrate import odeint
 from tools import diffusivity_hco_in_air
+import copy
 
 units = ctml.units
 OneAtm = ctml.OneAtm
